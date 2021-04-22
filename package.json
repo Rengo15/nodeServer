@@ -1,0 +1,21 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "My First NodeJS Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rengo15/nodeServer.git"
+  },
+  "keywords": ["node", "server"],
+  "author": "Rengo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rengo15/nodeServer/issues"
+  },
+  "homepage": "https://github.com/Rengo15/nodeServer#readme"
+}
