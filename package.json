@@ -4,18 +4,36 @@
   "description": "My First NodeJS Server",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon",
+    "build": "webpack --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rengo15/nodeServer.git"
   },
-  "keywords": ["node", "server"],
+  "keywords": [
+    "node",
+    "server"
+  ],
   "author": "Rengo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Rengo15/nodeServer/issues"
   },
-  "homepage": "https://github.com/Rengo15/nodeServer#readme"
+  "homepage": "https://github.com/Rengo15/nodeServer#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-node-externals": "^3.0.0"
+  }
 }
